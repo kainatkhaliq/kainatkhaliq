@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        .text-center {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .welcome-heading {
+            font-style: italic;
+            font-weight: bold;
+            color: turquoise;
+        }
+        .display-4 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: turquoise; /* Orange color */
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4"><span class="welcome-heading">Welcome to Student portal</span></h1>
+        <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+</body>
+</html>
